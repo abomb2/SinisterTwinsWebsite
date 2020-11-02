@@ -57,6 +57,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adams\Desktop\project\codelouisville" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
@@ -81,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604356822367</updated>
       <workItem from="1604356823428" duration="1157000" />
-      <workItem from="1604357989002" duration="346000" />
+      <workItem from="1604357989002" duration="1014000" />
     </task>
     <servers />
   </component>
