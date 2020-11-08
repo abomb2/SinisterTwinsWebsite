@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6783f1ce-7876-4c0c-97b3-a016a9925269" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -30,6 +29,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,13 +62,27 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\adams\Desktop\project\codelouisville" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adams\Desktop\project\codelouisville\javascript" />
       <recent name="C:\Users\adams\Desktop\project\codelouisville\img" />
       <recent name="C:\Users\adams\Desktop\project\codelouisville" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adams\Desktop\project\codelouisville" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,7 +94,7 @@
       <updated>1604356822367</updated>
       <workItem from="1604356823428" duration="1157000" />
       <workItem from="1604357989002" duration="3855000" />
-      <workItem from="1604857677877" duration="2497000" />
+      <workItem from="1604857677877" duration="7381000" />
     </task>
     <servers />
   </component>
@@ -98,5 +118,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="430" y="154" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604859695421" />
+    <state x="311" y="193" key="new project wizard" timestamp="1604863889548">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="311" y="193" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604863889548" />
   </component>
 </project>

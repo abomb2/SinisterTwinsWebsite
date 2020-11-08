@@ -18,6 +18,7 @@ ul {
 }
 p {
 	font-size: .95em;
+	padding-bottom: 2em;
 }
 h2,
 h3,
@@ -36,6 +37,40 @@ img {
 	height: auto;
 	padding: 20px;
 }
+
+div {
+	transition: all 0.5s cubic-bezier(.83,-0.43,.21,1.42);
+}
+body {
+	background-color: white;
+	transition: background 0.5s ease-out;
+	font-family: HelveticaNeue, Arial, Sans-serif;
+}
+body.on {
+	background-color: white;
+}
+button {
+	background: transparent;
+	border: 2px solid black;
+	border-radius: 1em;
+	color: red;
+	cursor: pointer;
+	font-size: 24px;
+	padding: 1em 1em;
+	position: absolute;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 1em);
+	transition: all 0.1s ease-out;
+}
+button:hover, button.active {
+	background: black;
+	color: red;
+	outline: none;
+}
+button:focus {
+	outline: none;
+}
+
 
 
 /* ================================= 
@@ -106,6 +141,17 @@ img {
 .blink-image {
 	animation: blink normal .25s 1s linear;
 }
+
+.hide {
+	opacity: 0;
+	top: calc(50% + 8em);
+}
+
+.show {
+	opacity: 1;
+	top: calc(50% + 6em);
+}
+
 /* ================================= 
   Media Queries
 ==================================== */
