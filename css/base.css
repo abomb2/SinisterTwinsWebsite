@@ -37,6 +37,7 @@ img {
 	padding: 20px;
 }
 
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -102,7 +103,9 @@ img {
 .feat-img {
 	border-radius: 5px;
 }
-
+.blink-image {
+	animation: blink normal .25s 1s linear;
+}
 /* ================================= 
   Media Queries
 ==================================== */
@@ -117,5 +120,16 @@ img {
 	}
 	.tagline {
 		font-size: 1.4em;
+	}
+}
+@keyframes blink {
+	0% {
+		opacity:0;
+	}
+	50% {
+		opacity:1;
+	}
+	100% {
+		opacity:0;
 	}
 }
