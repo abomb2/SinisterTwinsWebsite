@@ -20,6 +20,7 @@ p {
 	font-size: .95em;
 	padding-bottom: 2em;
 }
+
 h2,
 h3,
 a {
@@ -57,12 +58,9 @@ button {
 	cursor: pointer;
 	font-size: 24px;
 	padding: 1em 1em;
-	position: absolute;
-	left: 50%;
-	transform: translate3d(-50%, -50%, 1em);
-	transition: all 0.1s ease-out;
 }
-button:hover, button.active {
+button:hover,
+button.active {
 	background: black;
 	color: red;
 	outline: none;
@@ -71,6 +69,9 @@ button:focus {
 	outline: none;
 }
 
+#to-show {
+	text-align: center;
+}
 
 
 /* ================================= 
@@ -144,13 +145,16 @@ button:focus {
 
 .hide {
 	opacity: 0;
-	top: calc(50% + 8em);
 }
 
 .show {
 	opacity: 1;
-	top: calc(50% + 6em);
 }
+
+.centered-button {
+	text-align: center;
+}
+
 
 /* ================================= 
   Media Queries

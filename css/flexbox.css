@@ -8,9 +8,6 @@ body {
 	min-height: 100vh;
 }
 
-.row {
-	flex: 1;
-}
 
 /* ================================= 
   Media Queries
