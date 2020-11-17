@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Varela Round', sans-serif;
+	font-family: "Times New Roman", Times, serif;
 	line-height: 1.6;
 	color: gray;
 	margin: 0;
@@ -45,7 +45,7 @@ div {
 body {
 	background-color: white;
 	transition: background 0.5s ease-out;
-	font-family: HelveticaNeue, Arial, Sans-serif;
+	font-family: "Times New Roman", Times, serif;
 }
 body.on {
 	background-color: white;
@@ -172,6 +172,7 @@ button:focus {
 		font-size: 1.4em;
 	}
 }
+
 @keyframes blink {
 	0% {
 		opacity:0;
