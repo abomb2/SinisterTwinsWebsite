@@ -3,7 +3,6 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sinister Twins</title>
-	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/flexbox.css">
 </head>
@@ -43,6 +42,24 @@
 			<p>Click the above if you dare!</p>
 		</div>
 
+	</div>
+
+
+	<div id="button2" class="centered-button">
+		<button2 id="show-element2" onclick="roll20()">Roll 20</button2>
+	</div>
+
+	<script src="javascript/script.js"></script>
+
+	<div id="to-show2" class="hide">
+		<h1>Your roll is:  <span id="roll"></span></h1>
+		<script>
+		(() => {
+			var d1 = Math.floor(Math.random() * 20) +1;
+			document.getElementById("roll").innerHTML = d1;
+		})();
+		</script>
+		<p id="d1"></p>
 	</div>
 	
 	<footer class="main-footer">

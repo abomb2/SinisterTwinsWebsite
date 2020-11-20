@@ -68,11 +68,31 @@ button.active {
 button:focus {
 	outline: none;
 }
+button2 {
+	background: transparent;
+	border: 2px solid black;
+	border-radius: 1em;
+	color: red;
+	cursor: pointer;
+	font-size: 24px;
+	padding: 1em 1em;
+}
+button2:hover,
+button2.active {
+	background: black;
+	color: red;
+	outline: none;
+}
+button2:focus {
+	outline: none;
+}
 
 #to-show {
 	text-align: center;
 }
-
+#to-show2 {
+	text-align: center;
+}
 
 /* ================================= 
   Base Layout Styles
